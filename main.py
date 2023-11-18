@@ -11,7 +11,7 @@ while running:
             running = False
 
     screen.fill("black")
+    pygame.draw.rect(screen, (255,255,255), rect=(0,0,50,100))
     pygame.display.flip()
     clock.tick(60)
-
 pygame.quit()
